@@ -9,7 +9,7 @@ const Services = () => {
           <h2 className='section-title relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-1/2 before:hidden before:lg:block text-black'>
             Services
           </h2>
-          <p className='subtitle'>
+          <p className='subtitle text-gray-700'>
             Here's what we offer. For your first meeting, we recommend a free General Consultation session!
           </p>
         </div>

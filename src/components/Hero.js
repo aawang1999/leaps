@@ -8,7 +8,7 @@ const Hero = () => {
           <h2 className='section-title relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-1/2 before:hidden before:lg:block text-black'>
             Welcome to Leaps
           </h2>
-          <p className='subtitle'>
+          <p className='subtitle text-gray-700'>
             College counseling by students, for students.
           </p>
         </div>
