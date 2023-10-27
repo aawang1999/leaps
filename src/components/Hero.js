@@ -1,4 +1,5 @@
 import React from 'react'
+import Testimonials from './Testimonials'
 
 const Hero = () => {
   return (
@@ -12,6 +13,7 @@ const Hero = () => {
             College counseling by students, for students.
           </p>
         </div>
+        <Testimonials />
       </div>
     </section>
   )

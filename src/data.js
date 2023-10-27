@@ -1,4 +1,5 @@
 import { FiFacebook, FiInstagram } from 'react-icons/fi'
+import BlankPerson from './assets/img/blank-person.jpg'
 
 export const navigation = [
   {
@@ -40,7 +41,7 @@ export const servicesData = [
     name: 'General Consultation (1st Session Free)',
     category: 'hourly sessions',
     duration: '60 mins',
-    description: 'Guidance for your college-related questions, and charting a strategy going forward.'
+    description: 'Addressing your college-related questions and charting a strategy going forward.'
   },
   {
     id: '2',
@@ -94,5 +95,29 @@ export const servicesData = [
     name: '20 Hourly Sessions',
     category: 'packages',
     description: 'Any combination of 20 hourly sessions.'
+  },
+]
+
+export const testimonials = [
+  {
+    authorImg: BlankPerson,
+    authorText:
+      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorName: 'Olivia Doe',
+    authorPosition: 'Head of Design, Google',
+  },
+  {
+    authorImg: BlankPerson,
+    authorText:
+      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorName: 'Olivia Doe',
+    authorPosition: 'Head of Design, Google',
+  },
+  {
+    authorImg: BlankPerson,
+    authorText:
+      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+    authorName: 'Olivia Doe',
+    authorPosition: 'Head of Design, Google',
   },
 ]
