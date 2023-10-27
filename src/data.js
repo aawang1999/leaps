@@ -37,62 +37,62 @@ export const servicesNav = [
 export const servicesData = [
   {
     id: '1',
-    name: 'General Consultation',
+    name: 'General Consultation (1st Session Free)',
     category: 'hourly sessions',
     duration: '60 mins',
-    description: 'This is a sample description. A real one will be added shortly.'
+    description: 'Guidance for your college-related questions, and charting a strategy going forward.'
   },
   {
     id: '2',
     name: 'College Selection',
     category: 'hourly sessions',
     duration: '60 mins',
-    description: 'This is a sample description. A real one will be added shortly.'
+    description: 'Building a solid list of colleges that suits your academic and personal aspirations.'
   },
   {
     id: '3',
     name: 'Essay Editing',
     category: 'hourly sessions',
     duration: '60 mins',
-    description: 'This is a sample description. A real one will be added shortly.'
+    description: 'Crafting a standout admissions or supplementary essay that highlights your strengths and perspectives.'
   },
   {
     id: '4',
     name: 'Resume Editing',
     category: 'hourly sessions',
     duration: '60 mins',
-    description: 'This is a sample description. A real one will be added shortly.'
+    description: 'Fine-tuning your academic and extracurricular achievements to reflect your best self on paper.'
   },
   {
     id: '5',
     name: 'Extracurricular Planning',
     category: 'hourly sessions',
     duration: '60 mins',
-    description: 'This is a sample description. A real one will be added shortly.'
+    description: 'Strategizing your club, sport, and organizational involvement to enhance your application and development.'
   },
   {
     id: '6',
     name: 'Community Service Planning',
     category: 'hourly sessions',
     duration: '60 mins',
-    description: 'This is a sample description. A real one will be added shortly.'
+    description: 'Helping you identify volunteer opportunities that highlight your passions and commitment.'
   },
   {
     id: '7',
     name: '5 Hourly Sessions',
     category: 'packages',
-    description: 'This is a sample description. A real one will be added shortly.'
+    description: 'Any combination of 5 hourly sessions.'
   },
   {
     id: '8',
     name: '10 Hourly Sessions',
     category: 'packages',
-    description: 'This is a sample description. A real one will be added shortly.'
+    description: 'Any combination of 10 hourly sessions.'
   },
   {
     id: '9',
     name: '20 Hourly Sessions',
     category: 'packages',
-    description: 'This is a sample description. A real one will be added shortly.'
+    description: 'Any combination of 20 hourly sessions.'
   },
 ]
