@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import Logo from '../assets/img/LeapsLogo.png'
 import Nav from '../components/Nav'
 import NavMobile from '../components/NavMobile'
 import Socials from '../components/Socials'
