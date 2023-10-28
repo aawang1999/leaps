@@ -101,23 +101,38 @@ export const servicesData = [
 export const testimonials = [
   {
     authorImg: BlankPerson,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
+    authorName: 'William Chen',
+    authorCollege: 'Dartmouth College',
   },
   {
     authorImg: BlankPerson,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
+    authorName: 'William Chen',
+    authorCollege: 'Dartmouth College',
   },
   {
     authorImg: BlankPerson,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
+    authorName: 'William Chen',
+    authorCollege: 'Dartmouth College',
+  },
+  {
+    authorImg: BlankPerson,
+    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
+    authorName: 'William Chen',
+    authorCollege: 'Dartmouth College',
+  },
+  {
+    authorImg: BlankPerson,
+    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
+    authorName: 'William Chen',
+    authorCollege: 'Dartmouth College',
+  },
+  {
+    authorImg: BlankPerson,
+    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
+    authorName: 'William Chen',
+    authorCollege: 'Dartmouth College',
   },
 ]
