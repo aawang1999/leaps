@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Nav from '../components/Nav'
 import NavMobile from '../components/NavMobile'
 import Socials from '../components/Socials'
+import Language from './Language'
 
 const Header = () => {
   const [bg, setBg] = useState(false)
@@ -22,7 +23,7 @@ const Header = () => {
           <Nav />
         </div>
         <div className="hidden lg:block">
-          <Socials />
+          <Language />
         </div>
         <div className="lg:hidden">
           <NavMobile />
