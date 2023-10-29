@@ -29,7 +29,7 @@ module.exports = {
         primary: '#ffffff',
         secondary: '#f3f4f6',
         accent: {
-          DEFAULT: '#ac6b34',
+          DEFAULT: '#ff5733',
           hover: '#925a2b',
         },
         paragraph: '#000000',

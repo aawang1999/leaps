@@ -12,6 +12,17 @@ export const navigation = [
   }
 ]
 
+export const zhCnNavigation = [
+  {
+    name: '首页',
+    href: 'home',
+  },
+  {
+    name: '服务项目',
+    href: 'services',
+  }
+]
+
 export const social = [
   {
     icon: <FiFacebook />,
