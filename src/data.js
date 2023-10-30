@@ -7,6 +7,10 @@ export const navigation = [
     href: 'home',
   },
   {
+    name: 'Why Us?',
+    href: 'whyus',
+  },
+  {
     name: 'services',
     href: 'services',
   }
@@ -16,6 +20,10 @@ export const zhCnNavigation = [
   {
     name: '首页',
     href: 'home',
+  },
+  {
+    name: '跃升特色',
+    href: 'whyus',
   },
   {
     name: '服务项目',
@@ -199,15 +207,15 @@ export const testimonials = [
   },
   {
     authorImg: BlankPerson,
-    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
-    authorName: 'William Chen',
-    authorCollege: 'Dartmouth College',
+    authorText: 'I received great help with my essay for my application to USC graduate school. As a non-native English speaker, I lacked confidence in my writing skills. Tristan made substantial improvements to my essay.',
+    authorName: 'Snow',
+    authorCollege: 'USC Master',
   },
   {
     authorImg: BlankPerson,
-    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
-    authorName: 'William Chen',
-    authorCollege: 'Dartmouth College',
+    authorText: 'Kenton helped me identify my reach, match and safety schools. He was quick to point out my strenght and weakness which gave me a lot of clarity on my application.',
+    authorName: 'Danny',
+    authorCollege: 'Carnegie Mellon',
   },
   {
     authorImg: BlankPerson,
@@ -222,3 +230,19 @@ export const testimonials = [
     authorCollege: 'Dartmouth College',
   },
 ]
+
+export const whyusP1 = 'As students who also went through the college application just a few years ago, we came to the realization through our own experiences that many conventional college consulting services fail to adequately prepare students for success. Instead, they often adhere to outdated formulas, resulting in a repetitive and uninspiring approach. '
+
+export const whyusP2 = 'At Leaps, our goal is to offer the most practical service that not only enhances each student\'s chances but also uncovers their unique strengths, enabling them to stand out among all the highly competitive candidates. Over the years, we\'ve been assisting peers through college application for free, and we\'ve observed significantly better results when compared to traditional college consulting methods. Therefore, we\'re now excited to provide you with the most transparent, effective, and approachable consulting services.'
+
+export const whyusP3 = 'We can relate with both students and parents during this pivotal moment in life because we\'ve too experienced this process ourselves. We\'re committed to offering honest and practical opinions without the smoke screens or sugarcoating tactics other companies love to use. Our approach is to cut through the unnecessary distractions that many other companies emphasize and concentrate on addressing the most crucial factors that can significantly impact the outcome of your college application.'
+
+export const whyusP4 = 'We hope to connect with you soon, and best of luck on your college journey!'
+
+export const zhwhyusP1 = '作为几年前经才历过大学申请过程的学生，我们通过自身经验意识到，许多传统的大学咨询服务未能充分准备学生取得成功。相反，它们通常坚守换汤不换药的方式对待每一位学生，并没有真的去理解学生。'
+
+export const zhwhyusP2 = '在跃升，我们的目标是提供最实际有效的服务，不仅提高每位学生进入他们理想学校的机会，还是为了发掘他们的独特优势，使他们在众多竞争激烈的候选人中脱颖而出。多年来，我们一直免费帮助同龄人进行大学申请，与传统的大学咨询方法相比，我们意识到显著更好的结果。因此，我们现在很高兴为您提供最透明、最有效和最平易近人的咨询服务。'
+
+export const zhwhyusP3 = '我们非常能体会学生们和家长们在这人生转折点上的心情，因为我们自己也经历过这个过程。所以我们承诺提供最坦诚和实用的意见，而不是其他公司习惯使用的套路或粉饰。我们的方法不会浪费学生精力在没有意义的公式化步骤上，而是专注于对学生在大学申请以及未来规划上的最关键因素。'
+
+export const zhwhyusP4 = '我们期待与您见面，也祝愿各位学生在升学路上都不会留下遗憾！'
