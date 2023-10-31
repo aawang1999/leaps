@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { Context } from './Context'
 import Testimonials from './Testimonials'
+import WhyUs from './WhyUs'
 
 const Hero = () => {
   const { language, setLanguage } = useContext(Context)
@@ -16,6 +17,7 @@ const Hero = () => {
           </p>
         </div>
         <Testimonials />
+        <WhyUs/>
       </div>
     </section>
   )
