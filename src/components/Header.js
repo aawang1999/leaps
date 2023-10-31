@@ -7,7 +7,7 @@ import Language from './Language'
 
 const Header = () => {
   const [bg, setBg] = useState(false)
-  const { language, setLanguage } = useContext(Context)
+  const { language } = useContext(Context)
 
   useEffect(() => {
     window.addEventListener('scroll', () => {

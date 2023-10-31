@@ -1,12 +1,16 @@
-import React, { useState } from 'react'
-import { navigation } from '../data'
+import React, { useState, useContext } from 'react'
+import { Context } from './Context'
+import { navigation, zhCnNavigation } from '../data'
 import { XIcon } from '@heroicons/react/outline'
 import { MenuAlt3Icon } from '@heroicons/react/outline'
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
+import Language from './Language'
 
 const NavMobile = () => {
+  const { language } = useContext(Context)
   const [isOpen, setIsOpen] = useState(false)
+  let displayNav = language === 'en' ? navigation : zhCnNavigation
   const circleVariants = {
     hidden: {
       scale: 0
@@ -53,13 +57,14 @@ const NavMobile = () => {
         <div onClick={() => setIsOpen(false)} className="cursor-pointer absolute top-8 right-8">
           <XIcon className='w-8 h-8 text-white' />
         </div>
-        {navigation.map((item, index) => {
+        {displayNav.map((item, index) => {
           return (
             <li key={index} className='mb-8'>
-              <Link to={item.href} smooth={true} duration={500} offset={-70} className='cursor-pointer text-white capitalize' onClick={() => setIsOpen(false)}>{item.name}</Link>
+              <Link to={item.href} smooth={true} duration={500} offset={-70} className={`cursor-pointer text-white capitalize ${language === 'en' ? 'text-base tracking-normal' : 'text-lg tracking-widest'}`} onClick={() => setIsOpen(false)}>{item.name}</Link>
             </li>
           )
         })}
+        <Language color='white' />
       </motion.ul>
     </nav >
   )

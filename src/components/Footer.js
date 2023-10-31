@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Context } from './Context'
 import { social } from '../data'
 
 const Footer = () => {
+  const { language } = useContext(Context)
   return (
     <footer className='bg-secondary py-8'>
       <div className="container mx-auto">
@@ -14,7 +16,7 @@ const Footer = () => {
               )
             })}
           </div>
-          <p>&copy; 2023 Leaps Counseling LLC. All rights reserved.</p>
+          <p className={`${language === 'en' ? 'tracking-normal' : 'tracking-widest'}`}>{language === 'en' ? '2023 © Leaps Counseling LLC. All rights reserved.' : '2023 © 跃升顾问有限责任公司'}</p>
         </div>
       </div>
     </footer>

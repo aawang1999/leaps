@@ -4,7 +4,7 @@ import WhiteBackground from '../assets/img/white.png'
 import { FiClock } from 'react-icons/fi'
 
 const Service = ({ item }) => {
-  const { language, setLanguage } = useContext(Context)
+  const { language } = useContext(Context)
   return (
     <div key={item.id} className='flex flex-col items-center text-center'>
       <div id='service-container' className='mb-8 relative text-center'>

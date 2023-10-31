@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Context } from './Context'
 
-const Language = () => {
+const Language = ({ color }) => {
   const { language, setLanguage } = useContext(Context)
 
   const toggleLanguage = () => {
@@ -9,7 +9,7 @@ const Language = () => {
   }
 
   return (
-    <div className='cursor-pointer' onClick={toggleLanguage}>{language === 'en' ? '简体中文' : 'English'}</div>
+    <div className={`${color === 'white' ? 'text-white' : 'text-black'} cursor-pointer`} onClick={toggleLanguage}>{language === 'en' ? '简体中文' : 'English'}</div>
   )
 }
 
