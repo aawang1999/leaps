@@ -145,6 +145,19 @@ export const servicesData = [
   },
 ]
 
+export const advisorProfiles = [
+  {
+    advisorImg: BlankPerson,
+    advisorName: 'Tristan',
+    advisorText: "Tristan received a B.S. in Computer Science from Stanford University and is completing an M.S. in Computer Science, Human-Computer Interaction (also at Stanford). Originally intending to study Literature, he attended numerous writing camps when studying at Palo Alto High School, such as the prestigious Iowa Young Writers' Studio. His passion and skill in essay composition has led him to help many of his acquaintances with their college applications over the years.",
+  },
+  {
+    advisorImg: BlankPerson,
+    advisorName: 'Name',
+    advisorText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Eros in cursus turpis massa tincidunt. Mauris pellentesque pulvinar pellentesque habitant morbi. Nibh nisl condimentum id venenatis a condimentum. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi.",
+  },
+]
+
 export const testimonials = [
   {
     authorImg: BlankPerson,
