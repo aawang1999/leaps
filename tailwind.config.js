@@ -29,8 +29,8 @@ module.exports = {
         primary: '#ffffff',
         secondary: '#f3f4f6',
         accent: {
-          DEFAULT: '#ff5733',
-          hover: '#ff3533',
+          DEFAULT: '#dd4e00',
+          hover: '#c64600',
         },
         paragraph: '#000000',
       },
