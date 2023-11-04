@@ -4,7 +4,7 @@ import Testimonials from './Testimonials'
 import WhyUs from './WhyUs'
 
 const Hero = () => {
-  const { language, setLanguage } = useContext(Context)
+  const { language } = useContext(Context)
   return (
     <section id="home" className='section bg-primary'>
       <div className="container mx-auto">
@@ -17,7 +17,6 @@ const Hero = () => {
           </p>
         </div>
         <Testimonials />
-        <WhyUs/>
       </div>
     </section>
   )

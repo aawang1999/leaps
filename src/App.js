@@ -1,6 +1,8 @@
 import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import WhyUs from './components/WhyUs'
+import GetStarted from './components/GetStarted'
 import Services from './components/Services'
 import Footer from './components/Footer'
 
@@ -9,6 +11,8 @@ function App() {
     <div>
       <Header />
       <Hero />
+      <WhyUs />
+      <GetStarted />
       <Services />
       <Footer />
     </div>

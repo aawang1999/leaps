@@ -7,10 +7,6 @@ export const navigation = [
     href: 'home',
   },
   {
-    name: 'Why Us?',
-    href: 'whyus',
-  },
-  {
     name: 'services',
     href: 'services',
   }
@@ -20,10 +16,6 @@ export const zhCnNavigation = [
   {
     name: '首页',
     href: 'home',
-  },
-  {
-    name: '跃升特色',
-    href: 'whyus',
   },
   {
     name: '服务项目',
@@ -156,39 +148,33 @@ export const servicesData = [
 export const testimonials = [
   {
     authorImg: BlankPerson,
-    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
-    authorName: 'William Chen',
-    authorCollege: 'Dartmouth College',
-  },
-  {
-    authorImg: BlankPerson,
-    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
-    authorName: 'William Chen',
-    authorCollege: 'Dartmouth College',
-  },
-  {
-    authorImg: BlankPerson,
-    authorText: 'I received great help with my essay for my application to USC graduate school. As a non-native English speaker, I lacked confidence in my writing skills. Tristan made substantial improvements to my essay.',
+    authorText: 'I received great help with my USC graduate school application essay. As a non-native English speaker, I lacked confidence in my writing skills. Tristan helped me make substantial improvements to my essay.',
     authorName: 'Snow',
-    authorCollege: 'USC Master',
+    authorCollege: 'University of Southern California',
   },
   {
     authorImg: BlankPerson,
-    authorText: 'Kenton helped me identify my reach, match and safety schools. He was quick to point out my strenght and weakness which gave me a lot of clarity on my application.',
+    authorText: 'Kenton helped me identify my reach, match, and safety schools. He was quick to point out the strengths and weaknesses of my application, which gave me a lot of clarity.',
     authorName: 'Danny',
-    authorCollege: 'Carnegie Mellon',
+    authorCollege: 'Carnegie Mellon University',
   },
   {
     authorImg: BlankPerson,
-    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
-    authorName: 'William Chen',
-    authorCollege: 'Dartmouth College',
+    authorText: 'Tristan was a great help when it came to helping me narrow down essay ideas, and being an encouraging sound board for taking risks and being creative when it came to writing!',
+    authorName: 'Sophie',
+    authorCollege: 'Northwestern University',
   },
   {
     authorImg: BlankPerson,
-    authorText: 'Great service! Leaps offered me the professional and sincere advice that got me to where I am today.',
-    authorName: 'William Chen',
-    authorCollege: 'Dartmouth College',
+    authorText: 'Tristan carefully read through my application and offered precise and invaluable advice. I wholeheartedly recommend him to anyone pursuing guidance for their work.',
+    authorName: 'Wendy',
+    authorCollege: 'University of Texas, Austin',
+  },
+  {
+    authorImg: BlankPerson,
+    authorText: 'Tristan was very helpful with editing my college application. I am now attending UCLA so clearly his editing worked. :)',
+    authorName: 'Josua',
+    authorCollege: 'University of California, Los Angeles',
   },
 ]
 
