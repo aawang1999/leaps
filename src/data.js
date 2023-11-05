@@ -7,6 +7,14 @@ export const navigation = [
     href: 'home',
   },
   {
+    name: 'Why Us?',
+    href: 'whyus',
+  },
+  {
+    name: 'Get Started',
+    href: 'getstarted',
+  },
+  {
     name: 'services',
     href: 'services',
   }
@@ -16,6 +24,14 @@ export const zhCnNavigation = [
   {
     name: '首页',
     href: 'home',
+  },
+  {
+    name: '跃升特色',
+    href: 'whyus',
+  },
+  {
+    name: '现在联系我们',
+    href: 'getstarted',
   },
   {
     name: '服务项目',
@@ -150,11 +166,13 @@ export const advisorProfiles = [
     advisorImg: BlankPerson,
     advisorName: 'Tristan',
     advisorText: "Tristan received a B.S. in Computer Science from Stanford University and is completing an M.S. in Computer Science, Human-Computer Interaction (also at Stanford). Originally intending to study Literature, he attended numerous writing camps when studying at Palo Alto High School, such as the prestigious Iowa Young Writers' Studio. His passion and skill in essay composition has led him to help many of his acquaintances with their college applications over the years.",
+    zhAdvisorText: "Tristan毕业于Stanford University，获得计算机科学学士学位，并正在斯坦福大学攻读计算机科学与人机交互领域的硕士学位。最初他打算攻读文学，他在Palo Alto高中时参加了许多写作夏令营，比如著名的爱荷华青年作家工作室（Iowa Young Writers' Studio）。他对文章写作的热情和技巧使他多年来帮助了许多熟人处理他们的大学申请和文书。"
   },
   {
     advisorImg: BlankPerson,
-    advisorName: 'Name',
-    advisorText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Eros in cursus turpis massa tincidunt. Mauris pellentesque pulvinar pellentesque habitant morbi. Nibh nisl condimentum id venenatis a condimentum. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi.",
+    advisorName: 'Kenton',
+    advisorText: "Kenton is on track to receive a B.S. in Computer Science from Northeastern University. Throughout his years at college, Kenton worked at two fulltime co-op position: Web Developer at Commonwealth Financial Network and Software Engineer at Poloniex. His experience has made him a trustworthy mentor among his peers, helping many friends with college and internship application over the years.",
+    zhAdvisorText: "Kenton即将毕业于Northeastern University计算机科学学士学位。在他大学的这几年里，Kenton曾在两个全职合作职位工作过：作为Commonwealth Financial Network的网页开发人员和作为Poloniex的软件工程师。他丰富的经验使他被同龄人以及学弟学妹们信赖，多年来帮助了许多朋友申请大学和实习。"
   },
 ]
 
@@ -167,9 +185,15 @@ export const testimonials = [
   },
   {
     authorImg: BlankPerson,
-    authorText: 'Kenton helped me identify my reach, match, and safety schools. He was quick to point out the strengths and weaknesses of my application, which gave me a lot of clarity.',
+    authorText: 'Kenton helped me identify my reach, match, and safety schools. He was quick to identify the strengths and weaknesses of my application, which gave me a lot of clarity.',
     authorName: 'Danny',
     authorCollege: 'Carnegie Mellon University',
+  },
+  {
+    authorImg: BlankPerson,
+    authorText: 'Kenton pointed out that I wasted a lot of time at a school club that I didn\'t enjoy and I can instead focus on what can make me stand out. He used his experience for job applications to help me build my own Coding Project which helps my application stand out so much more.',
+    authorName: 'Justin',
+    authorCollege: 'Cornell University',
   },
   {
     authorImg: BlankPerson,
@@ -190,19 +214,3 @@ export const testimonials = [
     authorCollege: 'University of California, Los Angeles',
   },
 ]
-
-export const whyusP1 = 'As students who also went through the college application just a few years ago, we came to the realization through our own experiences that many conventional college consulting services fail to adequately prepare students for success. Instead, they often adhere to outdated formulas, resulting in a repetitive and uninspiring approach. '
-
-export const whyusP2 = 'At Leaps, our goal is to offer the most practical service that not only enhances each student\'s chances but also uncovers their unique strengths, enabling them to stand out among all the highly competitive candidates. Over the years, we\'ve been assisting peers through college application for free, and we\'ve observed significantly better results when compared to traditional college consulting methods. Therefore, we\'re now excited to provide you with the most transparent, effective, and approachable consulting services.'
-
-export const whyusP3 = 'We can relate with both students and parents during this pivotal moment in life because we\'ve too experienced this process ourselves. We\'re committed to offering honest and practical opinions without the smoke screens or sugarcoating tactics other companies love to use. Our approach is to cut through the unnecessary distractions that many other companies emphasize and concentrate on addressing the most crucial factors that can significantly impact the outcome of your college application.'
-
-export const whyusP4 = 'We hope to connect with you soon, and best of luck on your college journey!'
-
-export const zhwhyusP1 = '作为几年前经才历过大学申请过程的学生，我们通过自身经验意识到，许多传统的大学咨询服务未能充分准备学生取得成功。相反，它们通常坚守换汤不换药的方式对待每一位学生，并没有真的去理解学生。'
-
-export const zhwhyusP2 = '在跃升，我们的目标是提供最实际有效的服务，不仅提高每位学生进入他们理想学校的机会，还是为了发掘他们的独特优势，使他们在众多竞争激烈的候选人中脱颖而出。多年来，我们一直免费帮助同龄人进行大学申请，与传统的大学咨询方法相比，我们意识到显著更好的结果。因此，我们现在很高兴为您提供最透明、最有效和最平易近人的咨询服务。'
-
-export const zhwhyusP3 = '我们非常能体会学生们和家长们在这人生转折点上的心情，因为我们自己也经历过这个过程。所以我们承诺提供最坦诚和实用的意见，而不是其他公司习惯使用的套路或粉饰。我们的方法不会浪费学生精力在没有意义的公式化步骤上，而是专注于对学生在大学申请以及未来规划上的最关键因素。'
-
-export const zhwhyusP4 = '我们期待与您见面，也祝愿各位学生在升学路上都不会留下遗憾！'

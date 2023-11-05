@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import { Context } from './Context'
 import Testimonials from './Testimonials'
-import WhyUs from './WhyUs'
 
 const Hero = () => {
   const { language } = useContext(Context)

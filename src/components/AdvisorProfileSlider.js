@@ -1,12 +1,15 @@
-import React from 'react'
+import { React, useContext } from 'react'
 import { advisorProfiles } from '../data'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import '../swiper.css'
 import { Autoplay, Pagination } from 'swiper'
+import { Context } from './Context'
 
 const AdvisorProfileSlider = () => {
+  const { language } = useContext(Context)
+
   return (
     <section id='testimonials' className='bg-primary'>
       <div className="container mx-auto">
@@ -18,7 +21,7 @@ const AdvisorProfileSlider = () => {
             className='mySwiper'
           >
             {advisorProfiles.map((item, index) => {
-              const { advisorImg, advisorName, advisorText } = item
+              const { advisorImg, advisorName, advisorText, zhAdvisorText} = item
               return <SwiperSlide key={index}>
                 <div className="flex flex-col lg:flex-row gap-12 lg:gap-32">
                   <div className="w-48 h-48 lg:w-[328px] lg:h-[328px]">
@@ -28,7 +31,9 @@ const AdvisorProfileSlider = () => {
                     <div>
                       <p className='font-body text-xl mb-6 font-normal text-accent'>{advisorName}</p>
                     </div>
-                    <h5 className='text-base text-gray-700 mb-[50px] xl:mb-0'>{advisorText}</h5>
+                    <h5 className='text-base text-gray-700 mb-[50px] xl:mb-0'>
+                      {language === 'en' ? advisorText : zhAdvisorText }
+                    </h5>
                   </div>
                 </div>
               </SwiperSlide>
