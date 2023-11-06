@@ -171,7 +171,7 @@ export const advisorProfiles = [
   {
     advisorImg: BlankPerson,
     advisorName: 'Kenton',
-    advisorText: "Kenton is on track to receive a B.S. in Computer Science from Northeastern University. Throughout his years at college, Kenton worked at two fulltime co-op position: Web Developer at Commonwealth Financial Network and Software Engineer at Poloniex. His experience has made him a trustworthy mentor among his peers, helping many friends with college and internship application over the years.",
+    advisorText: "Kenton is on track to receive a B.S. in Computer Science from Northeastern University. Throughout his college years, he assumed two full-time co-op positions, working as a web developer at Commonwealth Financial Network and a software engineer at Poloniex. Considered a trustworthy mentor among his peers due to his experience, he has helped many friends with college and internship applications over the years.",
     zhAdvisorText: "Kenton即将毕业于Northeastern University计算机科学学士学位。在他大学的这几年里，Kenton曾在两个全职合作职位工作过：作为Commonwealth Financial Network的网页开发人员和作为Poloniex的软件工程师。他丰富的经验使他被同龄人以及学弟学妹们信赖，多年来帮助了许多朋友申请大学和实习。"
   },
 ]
@@ -191,7 +191,7 @@ export const testimonials = [
   },
   {
     authorImg: BlankPerson,
-    authorText: 'Kenton pointed out that I wasted a lot of time at a school club that I didn\'t enjoy and I can instead focus on what can make me stand out. He used his experience for job applications to help me build my own Coding Project which helps my application stand out so much more.',
+    authorText: 'Kenton pointed out that I wasted a lot of time at a school club that I didn\'t enjoy, and how I could instead focus on what could make me stand out. He used his experience applying for jobs to help me build my own coding project, which made my application stand out so much more.',
     authorName: 'Justin',
     authorCollege: 'Cornell University',
   },
