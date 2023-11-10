@@ -24,7 +24,7 @@ const Service = ({ item }) => {
             {language === 'en' ? item.description : item.zhDescription}</div><div id='service-front' className='flex flex-col justify-center items-center w-60 xl:w-80'>
           </div>
           <div className='flex flex-row justify-center items-center w-fit bg-gray-100 px-3 py-1 rounded-full mt-3'>
-            <div className='tracking-normal text-sm ml-2 text-gray-700'>{item.price}</div>
+            <div className='tracking-normal text-sm text-gray-700'>{item.price}</div>
           </div>
         </div>
       </div>

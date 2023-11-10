@@ -12,7 +12,7 @@ const Hero = () => {
             {language === 'en' ? 'Welcome to Leaps' : '跃升顾问欢迎您'}
           </h2>
           <p className={`subtitle text-gray-700 ${language === 'en' ? 'text-base tracking-normal' : 'text-lg tracking-widest'}`}>
-            {language === 'en' ? 'College counseling by students, for students.' : '在校大学生提供的大学咨询'}
+            {language === 'en' ? 'College consulting by students, for students.' : '在校大学生提供的大学咨询'}
           </p>
         </div>
         <Testimonials />
