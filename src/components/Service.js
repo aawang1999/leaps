@@ -5,6 +5,7 @@ import { FiClock } from 'react-icons/fi'
 
 const Service = ({ item }) => {
   const { language } = useContext(Context)
+
   return (
     <div key={item.id} className='flex flex-col items-center text-center'>
       <div id='service-container' className='mb-8 relative text-center'>
@@ -19,7 +20,12 @@ const Service = ({ item }) => {
               </div> : <div></div>
             }
           </div>
-          <div id='service-back' className={`${language === 'en' ? 'text-base tracking-normal' : 'text-lg tracking-widest'} mt-3 text-gray-700`}>{language === 'en' ? item.description : item.zhDescription}</div>
+          <div className={`${language === 'en' ? 'text-base tracking-normal' : 'text-lg tracking-widest'} mt-3 text-gray-700`}>
+            {language === 'en' ? item.description : item.zhDescription}</div><div id='service-front' className='flex flex-col justify-center items-center w-60 xl:w-80'>
+          </div>
+          <div className='flex flex-row justify-center items-center w-fit bg-gray-100 px-3 py-1 rounded-full mt-3'>
+            <div className='tracking-normal text-sm ml-2 text-gray-700'>{item.price}</div>
+          </div>
         </div>
       </div>
     </div >
