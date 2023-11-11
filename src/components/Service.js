@@ -28,7 +28,7 @@ const Service = ({ item }) => {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   )
 }
 

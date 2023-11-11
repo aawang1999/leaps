@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { Context } from './Context'
+import AdvantagesDiagram from './AdvantagesDiagram'
 import { WhyUsParagraph } from './WhyUsData/Paragraph'
 import { ZhWhyUsParagraph } from './WhyUsData/ZhParagraph'
 
@@ -23,6 +24,7 @@ const WhyUs = () => {
           </div>
         </div>
       </div>
+      <AdvantagesDiagram />
     </section>
   )
 }

@@ -1,4 +1,5 @@
-import { FiFacebook, FiInstagram } from 'react-icons/fi'
+import { FiFacebook, FiInstagram, } from 'react-icons/fi'
+import { FaLaptop, FaDollarSign, FaHandHoldingHeart } from 'react-icons/fa'
 import BlankPerson from './assets/img/blank-person.jpg'
 import Kenton from './assets/img/kenton-pic.jpg'
 
@@ -8,7 +9,7 @@ export const navigation = [
     href: 'home',
   },
   {
-    name: 'Why Us?',
+    name: 'Why Us',
     href: 'whyus',
   },
   {
@@ -31,7 +32,7 @@ export const zhCnNavigation = [
     href: 'whyus',
   },
   {
-    name: '现在联系我们',
+    name: '联系我们',
     href: 'getstarted',
   },
   {
@@ -143,7 +144,7 @@ export const servicesData = [
     id: '7',
     name: '1-Year Package',
     category: 'packages',
-    description: 'A full year of college consulting containing up to 15 online sessions and behind the scene preparation　focusing on the later stages of application. Recommended for students above 11th grade.',
+    description: 'A full year of college consulting containing up to 15 online sessions and behind the scene preparation focusing on the later stages of application. Recommended for students above 11th grade.',
     zhName: '一年套餐',
     zhCategory: '服务套餐',
     zhDescription: '在一年中包含上至15次线上咨询以及定制专属学生的升学计划，将大多时间花在确定学校和专业，文书的撰写和修改等后期项目。推荐11年级以上学生。',
@@ -193,7 +194,7 @@ export const testimonials = [
     authorName: 'Snow',
     authorCollege: 'University of Southern California',
     chineseCollege: '南加州大学',
-    chineseText:'Tristan在我申请USC硕士的作文上帮了很大的忙。由于英语不是母语，我对自己写作的能力没有完全的自信，非常感谢Tristan花了很多时间帮我修改文章。'
+    chineseText: 'Tristan在我申请USC硕士的作文上帮了很大的忙。由于英语不是母语，我对自己写作的能力没有完全的自信，非常感谢Tristan花了很多时间帮我修改文章。'
 
   },
   {
@@ -235,5 +236,29 @@ export const testimonials = [
     authorCollege: 'University of California, Los Angeles',
     chineseCollege: '加州大学洛杉矶分校',
     chineseText: 'Tristan在我的转学申请书上给了很多指导，我现在能够在我UCLA读书很多都是他的功劳 ：）'
+  },
+]
+
+export const advantages = [
+  {
+    id: 1,
+    title: 'Accessible Anywhere',
+    icon: <FaLaptop />,
+    content: 'Our services are completely virtual, so you can log on from home, school, or your favorite café. This saves us the cost of renting offices, and saves you countless trips!',
+    footnote: null
+  },
+  {
+    id: 2,
+    title: 'More Bang For Your Buck',
+    icon: <FaDollarSign />,
+    content: "In the Bay Area, typical comprehensive college application services can easily cost $10000 per year.* Assuming 3 years' worth of consulting and 20 sessions per year, a single session can cost you $500. Leaps halves this price at $4880 per year and $249.99 per individual session.",
+    footnote: "*Statistic from Bay Area College Consulting FAQ."
+  },
+  {
+    id: 3,
+    title: 'No Frills',
+    icon: <FaHandHoldingHeart />,
+    content: 'At Leaps, you are guaranteed transparency and flexibility. You get the high-quality service and actionable advice that you pay for. No sugarcoated guarantees, fancy packages, or hidden fees.',
+    footnote: null
   },
 ]
