@@ -2,6 +2,9 @@ import { FiFacebook, FiInstagram, } from 'react-icons/fi'
 import { FaLaptop, FaDollarSign, FaHandHoldingHeart } from 'react-icons/fa'
 import BlankPerson from './assets/img/blank-person.jpg'
 import Kenton from './assets/img/kenton-pic.jpg'
+import Imac from './assets/img/imac.png'
+import Coin from './assets/img/coin.png'
+import Healthcare from './assets/img/healthcare.png'
 
 export const navigation = [
   {
@@ -243,22 +246,28 @@ export const advantages = [
   {
     id: 1,
     title: 'Accessible Anywhere',
-    icon: <FaLaptop />,
-    content: 'Our services are completely virtual, so you can log on from home, school, or your favorite café. This saves us the cost of renting offices, and saves you countless trips!',
+    icon: Imac,
+    content: <p>Our services are <strong>completely virtual</strong>, so you can log on from home, school, or your favorite café. This saves us the cost of renting offices, and <strong>saves you countless trips!</strong></p>,
     footnote: null
   },
   {
     id: 2,
     title: 'More Bang For Your Buck',
-    icon: <FaDollarSign />,
-    content: "In the Bay Area, typical comprehensive college application services can easily cost $10000 per year.* Assuming 3 years' worth of consulting and 20 sessions per year, a single session can cost you $500. Leaps halves this price at $4880 per year and $249.99 per individual session.",
+    icon: Coin,
+    content: <p>In the Bay Area, typical comprehensive college application services can easily cost $10000 per year.* Assuming 3 years' worth of consulting and 20 sessions per year, a single session can cost you $500. <strong>Leaps halves this price</strong> at $4880 per year and $249.99 per individual session.</p>,
     footnote: "*Statistic from Bay Area College Consulting FAQ."
   },
   {
     id: 3,
     title: 'No Frills',
-    icon: <FaHandHoldingHeart />,
-    content: 'At Leaps, you are guaranteed transparency and flexibility. You get the high-quality service and actionable advice that you pay for. No sugarcoated guarantees, fancy packages, or hidden fees.',
+    icon: Healthcare,
+    content: <p>At Leaps, you are guaranteed transparency and flexibility. You get the <strong>high-quality service</strong> and <strong>actionable advice</strong> that you pay for. No sugarcoated guarantees, fancy packages, or hidden fees.</p>,
     footnote: null
   },
+]
+
+export const categoryTitleInfo = [
+  {
+
+  }
 ]
