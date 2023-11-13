@@ -266,8 +266,14 @@ export const advantages = [
   },
 ]
 
-export const categoryTitleInfo = [
-  {
+export const categoryTitleInfo = {
+  'all': "Here's what we offer. For your first meeting, we recommend a free General Consultation session!",
+  'hourly sessions': 'Info for hourly sessions.',
+  'packages': 'Info for packages.'
+}
 
-  }
-]
+export const categoryTitleInfoZh = {
+  'all': '跃升提供以下精品服务。所有客户可享受一次免费初步咨询，让我们能为您制定专属升学计划！',
+  'hourly sessions': '精品服务资讯。',
+  'packages': '服务套餐资讯。'
+}

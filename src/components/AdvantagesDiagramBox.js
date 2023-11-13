@@ -9,8 +9,8 @@ const AdvantagesDiagramBox = ({ item }) => {
             {item.title}
           </div>
           <img src={item.icon} className='w-[100px] h-[100px] mt-6' alt="" />
-          <div id='advantage-info' className='mt-6'>
-            <div className='w-60 xl:w-80 text-gray-700'>
+          <div id='advantage-info' className='mt-6 px-6 flex flex-col items-center justify-center text-center'>
+            <div className='text-gray-700 flex flex-col items-center justify-center text-center'>
               {item.content}
             </div>
             {

@@ -4,7 +4,7 @@ import { Context } from './Context'
 import Service from './Service'
 
 const ServiceItems = () => {
-  const { language } = useContext(Context)
+  const { language, setServiceCategory } = useContext(Context)
   const [item, setItem] = useState({ name: 'all' })
   const [services, setServices] = useState([])
   const [active, setActive] = useState(0)
@@ -24,14 +24,16 @@ const ServiceItems = () => {
     let newName = e.target.textContent.toLowerCase()
     if (newName === 'all' || newName === '全部') {
       setItem({ name: 'all' })
+      setServiceCategory('all')
     } else if (newName === 'hourly sessions' || newName === '精品服务') {
       setItem({ name: 'hourly sessions' })
+      setServiceCategory('hourly sessions')
     } else {
       setItem({ name: 'packages' })
+      setServiceCategory('packages')
     }
     setActive(index)
   }
-
 
   return (
     <div>
