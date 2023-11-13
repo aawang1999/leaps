@@ -37,44 +37,6 @@
   }
 }
 
-#service-container {
-  background-color: white;
-  height: 200px;
-}
-
-#service-info, 
-#advantage-info {
-  display: none;
-}
-
-#service-container:hover {
-  background-color: transparent;
-  transition: all 0.3s ease-in-out;
-  height: fit-content;
-  padding: 24px 0;
-}
-
-#service-container:hover #service-info, 
-#advantage-container:hover #advantage-info {
-  display: block;
-}
-
-#advantage-container {
-  background-color: white;
-}
-
-#advantage-container:hover {
-  background-color: transparent;
-  transition: all 0.3s ease-in-out;
-}
-
 @media only screen and (max-width: 768px) {
-  #service-background {
-    opacity: 1 !important;
-  }
 
-  #service-back {
-    opacity: 1 !important;
-    display: block !important;
-  }
 }

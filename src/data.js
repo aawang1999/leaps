@@ -1,5 +1,4 @@
 import { FiFacebook, FiInstagram, } from 'react-icons/fi'
-import { FaLaptop, FaDollarSign, FaHandHoldingHeart } from 'react-icons/fa'
 import BlankPerson from './assets/img/blank-person.jpg'
 import Kenton from './assets/img/kenton-pic.jpg'
 import Imac from './assets/img/imac.png'
@@ -165,7 +164,7 @@ export const servicesData = [
   },
   {
     id: '9',
-    name: 'Full Pacakge',
+    name: 'Full Package',
     category: 'packages',
     description: 'Up to 4 years of college consulting containing up to 60 online sessions and even more time spending on learning about the student\'s unique advantage.',
     zhName: '全套套餐',
