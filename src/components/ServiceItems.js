@@ -60,7 +60,7 @@ const ServiceItems = () => {
           return (
             <div key={index} open={index === open} onClick={() => toggle(index)} className='flex flex-col items-center text-center'>
               <div className='mb-8 flex justify-center items-center text-center w-full bg-white'>
-                <div className='flex flex-col justify-center items-center py-6'>
+                <div className='flex flex-col justify-center items-center px-6 py-6'>
                   <div className='flex flex-col justify-center items-center'>
                     <div className={`${language === 'en' ? 'tracking-normal' : 'tracking-widest'} font-bold text-xl`}>{language === 'en' ? item.name : item.zhName}</div>
                     {item.duration ?
