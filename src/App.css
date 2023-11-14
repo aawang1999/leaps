@@ -37,35 +37,6 @@
   }
 }
 
-#service-back {
-  opacity: 0;
-  display: none;
-  transition: all 0.3s ease-in-out;
-}
-
-#service-container:hover {
-  background-color: #f3f4f6;
-  transition: all 0.3s ease-in-out;
-}
-
-#service-container:hover #service-background {
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-}
-
-#service-container:hover #service-back {
-  opacity: 1;
-  display: block;
-  transition: all 0.3s ease-in-out;
-}
-
 @media only screen and (max-width: 768px) {
-  #service-background {
-    opacity: 1 !important;
-  }
 
-  #service-back {
-    opacity: 1 !important;
-    display: block !important;
-  }
 }

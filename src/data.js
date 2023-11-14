@@ -1,6 +1,9 @@
-import { FiFacebook, FiInstagram } from 'react-icons/fi'
+import { FiFacebook, FiInstagram, } from 'react-icons/fi'
 import BlankPerson from './assets/img/blank-person.jpg'
 import Kenton from './assets/img/kenton-pic.jpg'
+import Imac from './assets/img/imac.png'
+import Coin from './assets/img/coin.png'
+import Healthcare from './assets/img/healthcare.png'
 
 export const navigation = [
   {
@@ -8,7 +11,7 @@ export const navigation = [
     href: 'home',
   },
   {
-    name: 'Why Us?',
+    name: 'Why Us',
     href: 'whyus',
   },
   {
@@ -31,7 +34,7 @@ export const zhCnNavigation = [
     href: 'whyus',
   },
   {
-    name: '现在联系我们',
+    name: '联系我们',
     href: 'getstarted',
   },
   {
@@ -143,7 +146,7 @@ export const servicesData = [
     id: '7',
     name: '1-Year Package',
     category: 'packages',
-    description: 'A full year of college consulting containing up to 15 online sessions and behind the scene preparation　focusing on the later stages of application. Recommended for students above 11th grade.',
+    description: 'A full year of college consulting containing up to 15 online sessions and behind the scene preparation focusing on the later stages of application. Recommended for students above 11th grade.',
     zhName: '一年套餐',
     zhCategory: '服务套餐',
     zhDescription: '在一年中包含上至15次线上咨询以及定制专属学生的升学计划，将大多时间花在确定学校和专业，文书的撰写和修改等后期项目。推荐11年级以上学生。',
@@ -161,7 +164,7 @@ export const servicesData = [
   },
   {
     id: '9',
-    name: 'Full Pacakge',
+    name: 'Full Package',
     category: 'packages',
     description: 'Up to 4 years of college consulting containing up to 60 online sessions and even more time spending on learning about the student\'s unique advantage.',
     zhName: '全套套餐',
@@ -181,7 +184,7 @@ export const advisorProfiles = [
   {
     advisorImg: Kenton,
     advisorName: 'Kenton',
-    advisorText: "Kenton is on track to receive a B.S. in Computer Science from Northeastern University. Throughout his years at college, Kenton worked at two fulltime co-op position: Web Developer at Commonwealth Financial Network and Software Engineer at Poloniex. His experience has made him a trustworthy mentor among his peers, helping many friends with college and internship application over the years.",
+    advisorText: "Kenton is on track to receive a B.S. in Computer Science from Northeastern University. Throughout his college years, he assumed two full-time co-op positions, working as a web developer at Commonwealth Financial Network and a software engineer at Poloniex. Considered a trustworthy mentor among his peers due to his experience, he has helped many friends with college and internship applications over the years.",
     zhAdvisorText: "Kenton即将毕业于Northeastern University计算机科学学士学位。在他大学的这几年里，Kenton曾在两个全职合作职位工作过：作为Commonwealth Financial Network的网页开发人员和作为Poloniex的软件工程师。他丰富的经验使他被同龄人以及学弟学妹们信赖，多年来帮助了许多朋友申请大学和实习。"
   },
 ]
@@ -193,7 +196,7 @@ export const testimonials = [
     authorName: 'Snow',
     authorCollege: 'University of Southern California',
     chineseCollege: '南加州大学',
-    chineseText:'Tristan在我申请USC硕士的作文上帮了很大的忙。由于英语不是母语，我对自己写作的能力没有完全的自信，非常感谢Tristan花了很多时间帮我修改文章。'
+    chineseText: 'Tristan在我申请USC硕士的作文上帮了很大的忙。由于英语不是母语，我对自己写作的能力没有完全的自信，非常感谢Tristan花了很多时间帮我修改文章。'
 
   },
   {
@@ -206,7 +209,7 @@ export const testimonials = [
   },
   {
     authorImg: BlankPerson,
-    authorText: 'Kenton pointed out that I wasted a lot of time at a school club that I didn\'t enjoy and I can instead focus on what can make me stand out. He used his experience for job applications to help me build my own Coding Project which helps my application stand out so much more.',
+    authorText: 'Kenton pointed out that I wasted a lot of time at a school club that I didn\'t enjoy, and how I could instead focus on what could make me stand out. He used his experience applying for jobs to help me build my own coding project, which made my application stand out so much more.',
     authorName: 'Justin',
     authorCollege: 'Cornell University',
     chineseCollege: '康奈尔大学',
@@ -237,3 +240,39 @@ export const testimonials = [
     chineseText: 'Tristan在我的转学申请书上给了很多指导，我现在能够在我UCLA读书很多都是他的功劳 ：）'
   },
 ]
+
+export const advantages = [
+  {
+    id: 1,
+    title: 'Accessible Anywhere',
+    icon: Imac,
+    content: <p>Our services are <strong>completely virtual</strong>, so you can log on from home, school, or your favorite café. This saves us the cost of renting offices, and <strong>saves you countless trips!</strong></p>,
+    footnote: null
+  },
+  {
+    id: 2,
+    title: 'More Bang For Your Buck',
+    icon: Coin,
+    content: <p>In the Bay Area, typical comprehensive college application services can easily cost $10000 per year.* Assuming 3 years' worth of consulting and 20 sessions per year, a single session can cost you $500. <strong>Leaps halves this price</strong> at $4880 per year and $249.99 per individual session.</p>,
+    footnote: "*Statistic from Bay Area College Consulting FAQ."
+  },
+  {
+    id: 3,
+    title: 'No Frills',
+    icon: Healthcare,
+    content: <p>At Leaps, you are guaranteed transparency and flexibility. You get the <strong>high-quality service</strong> and <strong>actionable advice</strong> that you pay for. No sugarcoated guarantees, fancy packages, or hidden fees.</p>,
+    footnote: null
+  },
+]
+
+export const categoryTitleInfo = {
+  'all': "Here's what we offer. For your first meeting, we recommend a free General Consultation session!",
+  'hourly sessions': 'Info for hourly sessions.',
+  'packages': 'Info for packages.'
+}
+
+export const categoryTitleInfoZh = {
+  'all': '跃升提供以下精品服务。所有客户可享受一次免费初步咨询，让我们能为您制定专属升学计划！',
+  'hourly sessions': '精品服务资讯。',
+  'packages': '服务套餐资讯。'
+}

@@ -1,9 +1,10 @@
 import React, { useContext } from 'react'
 import { Context } from './Context'
 import ServiceItems from './ServiceItems'
+import { categoryTitleInfo, categoryTitleInfoZh } from '../data'
 
 const Services = () => {
-  const { language } = useContext(Context)
+  const { language, serviceCategory } = useContext(Context)
   return (
     <section id="services" className='section bg-secondary min-h-[1000px]'>
       <div className="container mx-auto">
@@ -12,7 +13,7 @@ const Services = () => {
             {language === 'en' ? 'Services' : '服务项目'}
           </h2>
           <p className={`subtitle text-gray-700 ${language === 'en' ? 'text-base tracking-normal' : 'text-lg tracking-widest'}`}>
-            {language === 'en' ? "Here's what we offer. For your first meeting, we recommend a free General Consultation session!" : '跃升提供以下精品服务。所有客户可享受一次免费初步咨询，让我们能为您制定专属升学计划！'}
+            {language === 'en' ? categoryTitleInfo[serviceCategory] : categoryTitleInfoZh[serviceCategory]}
           </p>
         </div>
         <ServiceItems />

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { Context } from './Context'
+import AdvantagesDiagram from './AdvantagesDiagram'
 import { WhyUsParagraph } from './WhyUsData/Paragraph'
 import { ZhWhyUsParagraph } from './WhyUsData/ZhParagraph'
 
@@ -16,13 +17,14 @@ const WhyUs = () => {
           </h2>
           <div className='flex flex-col lg:flex-row'>
             <h5 className='font-body font-bold text-left text-2xl mt-6 italic font-normal text-black lg:w-5/12 lg:pr-10'>
-              {language === 'en' ? 'We offer an approachable, flexible, and effective counseling service by students, for students.' 
-              : '在校大学生提供最平易近人、灵活高效的咨询服务。'}
+              {language === 'en' ? 'We offer an approachable, flexible, and effective college consulting service by students, for students.'
+                : '在校大学生提供最平易近人、灵活高效的咨询服务。'}
             </h5>
-            {language === 'en' ? <WhyUsParagraph/> : <ZhWhyUsParagraph/>}
+            {language === 'en' ? <WhyUsParagraph /> : <ZhWhyUsParagraph />}
           </div>
         </div>
       </div>
+      <AdvantagesDiagram />
     </section>
   )
 }

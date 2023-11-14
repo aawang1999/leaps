@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
 @layer base {
   body {
     @apply font-body text-paragraph leading-6 bg-white;
