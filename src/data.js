@@ -245,34 +245,43 @@ export const advantages = [
   {
     id: 1,
     title: 'Accessible Anywhere',
+    titleZh: '随处可及',
     icon: Imac,
     content: <p>Our services are <strong>completely virtual</strong>, so you can log on from home, school, or your favorite café. This saves us the cost of renting offices, and <strong>saves you countless trips!</strong></p>,
-    footnote: null
+    contentZh: <p>我们的服务将完全通过<strong>线上会议</strong>进行, 您可以从家中或任何方便的地方进行线上咨询. 这不仅让我们能够剩下办公室的房租去为您提供更物超所值的服务，同时也让您能够<strong>更方便的进行咨询</strong></p>,
+    footnote: null,
+    footnoteZh: null
   },
   {
     id: 2,
     title: 'More Bang For Your Buck',
+    titleZh: '诚实的价格',
     icon: Coin,
-    content: <p>In the Bay Area, typical comprehensive college application services can easily cost $10000 per year.* Assuming 3 years' worth of consulting and 20 sessions per year, a single session can cost you $500. <strong>Leaps halves this price</strong> at $4880 per year and $249.99 per individual session.</p>,
-    footnote: "*Statistic from Bay Area College Consulting FAQ."
+    content: <p>In the Bay Area, typical comprehensive college application services can easily cost $10000 per year.* Assuming 3 years' worth of consulting and 20 sessions per year, a single session can cost you $500. <strong>Leaps halves this price</strong> at $4880 per year and $249.99 per individual session by not having to rent out a physical office and devote resources on actually helping students.</p>,
+    contentZh: <p>在美国旧金山湾区，完整的大学咨询至少会在一万美金每年左右。* 假设您在3年中每年咨询20次，那么您单次咨询的费用将为至少五百美金. <strong>在跃升我们提供将近一半的价格</strong>， 完整的套餐每年最高只需美元4880，而单次咨询只需要美元249.99。通过线上咨询的方式，我们将办公室的租金剩下来，将您所有的支付全部用在最大程度地帮助学生完成他们的目标</p>,
+    footnote: "*Statistic from Bay Area College Consulting FAQ.",
+    footnoteZh: "*数据来源于湾区大学咨询官网。"
   },
   {
     id: 3,
     title: 'No Frills',
+    titleZh: '没有套路',
     icon: Healthcare,
     content: <p>At Leaps, you are guaranteed transparency and flexibility. You get the <strong>high-quality service</strong> and <strong>actionable advice</strong> that you pay for. No sugarcoated guarantees, fancy packages, or hidden fees.</p>,
-    footnote: null
+    contentZh: <p>在跃升，我们承诺提供<strong>最透明实际的高质量</strong>服务。我们会诚实地通过您的目标和需求去进行建议，不会有虚假的“保送”，摸棱两可的套餐，或隐藏起来的额外费用。</p>,
+    footnote: null,
+    footnoteZh: null
   },
 ]
 
 export const categoryTitleInfo = {
-  'all': "Here's what we offer. For your first meeting, we recommend a free General Consultation session!",
-  'hourly sessions': 'Info for hourly sessions.',
-  'packages': 'Info for packages.'
+  'all': "Here's what we offer. For your first meeting, we recommend a free General Consultation session! Click the navigation tabs below to learn the difference between hourly sessions and packages!",
+  'hourly sessions': 'An hourly session is an hour of online meeting dedicated to one goal of your choice. It is more economical for students who are very indepedent and is about to apply soon.',
+  'packages': 'A pacakge is a long term plan tailored to your goal and situation. We will be transparent that the per-hour fee is higher for packages due to additional time dedicated outside of meetings. We will have more time and knowledge about you to conduct research and set up customized milestones.'
 }
 
 export const categoryTitleInfoZh = {
-  'all': '跃升提供以下精品服务。所有客户可享受一次免费初步咨询，让我们能为您制定专属升学计划！',
-  'hourly sessions': '精品服务资讯。',
-  'packages': '服务套餐资讯。'
+  'all': '跃升提供以下精品服务。所有客户可享受一次免费初步咨询，让我们能为您制定专属升学计划！点击副标题了解单次咨询和套餐的区别！',
+  'hourly sessions': '精品服务是专注于您选择的一个目标的一小时在线咨询和辅导。对于那些非常独立且即将申请的学生来说是一个更经济实惠选择。',
+  'packages': '一个套餐是根据您的目标和情况量身定制的长期计划。我们坦诚，套餐的每小时费用较高，这是因为我们在会议之外额外投入了更多的时间。这些额外时间会被用学生以及目标学校调查，时间规划，和设定长短期里程碑.'
 }

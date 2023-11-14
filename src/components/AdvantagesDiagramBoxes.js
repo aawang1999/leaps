@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
+import { Context } from './Context'
 import { Collapse } from 'react-collapse'
 import { IoChevronUpCircleOutline, IoChevronDownCircleOutline } from 'react-icons/io5'
 import { advantages } from '../data'
 
 const AdvantagesDiagramBoxes = () => {
+  const { language } = useContext(Context)
   const [open, setOpen] = useState(null)
 
   const toggle = (index) => {
@@ -21,18 +23,18 @@ const AdvantagesDiagramBoxes = () => {
             <div className='mb-8 text-center bg-white w-full'>
               <div className='flex flex-col justify-center items-center py-6'>
                 <div className='font-bold text-xl'>
-                  {item.title}
+                  {language === 'en' ? item.title : item.titleZh}
                 </div>
                 <img src={item.icon} className='w-[100px] h-[100px] mt-6' alt="" />
                 <Collapse isOpened={open === index}>
                   <div className='mt-6 px-6 flex flex-col items-center justify-center text-center'>
                     <div className='text-gray-700 flex flex-col items-center justify-center text-center'>
-                      {item.content}
+                      {language === 'en' ? item.content : item.contentZh}
                     </div>
                     {
                       item.footnote !== null
                         ? <div className='text-xs mt-6 text-gray-700'>
-                          {item.footnote}
+                          {language === 'en' ? item.footnote : item.footnoteZh}
                         </div>
                         : <></>
                     }
