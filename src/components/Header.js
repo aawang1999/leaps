@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext } from 'react'
 import { Context } from './Context'
 import Nav from '../components/Nav'
 import NavMobile from '../components/NavMobile'
-import Socials from '../components/Socials'
 import Language from './Language'
 import LeapsLogo from '../assets/img/leaps-logo.png'
 

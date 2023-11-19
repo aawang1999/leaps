@@ -16,7 +16,7 @@ const WhyUs = () => {
             {language === 'en' ? 'Why Us?' : '选择跃升的优势'}
           </h2>
           <div className='flex flex-col lg:flex-row'>
-            <h5 className='font-body font-bold text-left text-2xl mt-6 italic font-normal text-black lg:w-5/12 lg:pr-10'>
+            <h5 className={`font-body font-bold text-left text-2xl mt-6 italic font-normal text-black lg:w-5/12 lg:pr-10 ${language === 'en' ? 'tracking-normal' : 'tracking-wider'}`}>
               {language === 'en' ? 'We offer an approachable, flexible, and effective college consulting service by students, for students.'
                 : '在校大学生提供最平易近人、灵活高效的咨询服务。'}
             </h5>
