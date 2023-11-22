@@ -10,9 +10,11 @@ export const ZhGetStartedP = () => {
       <p className={'text-left text-lg subtitle text-gray-700 tracking-wider'}>
         (以下问卷不会要求任何支付。)
       </p>
-      <button className='btn btn-md bg-accent hover:bg-accent-hover transition-all tracking-widest'>
-        联系我们
-      </button>
+      <a href="https://stanforduniversity.qualtrics.com/jfe/form/SV_6gmy2LkEK494rqK" target="_blank" rel="noreferrer">
+        <button className='btn btn-md bg-accent hover:bg-accent-hover transition-all tracking-widest'>
+          联系我们
+        </button>
+      </a>
     </div>
   )
 }
