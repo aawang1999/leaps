@@ -1,6 +1,7 @@
 import { FiFacebook, FiInstagram, } from 'react-icons/fi'
 import BlankPerson from './assets/img/blank-person.jpg'
 import Kenton from './assets/img/kenton-pic.jpg'
+import Tristan from './assets/img/tristan-pic.png'
 import Imac from './assets/img/imac.png'
 import Coin from './assets/img/coin.png'
 import Healthcare from './assets/img/healthcare.png'
@@ -176,7 +177,7 @@ export const servicesData = [
 
 export const advisorProfiles = [
   {
-    advisorImg: BlankPerson,
+    advisorImg: Tristan,
     advisorName: 'Tristan',
     advisorText: "Tristan received a B.S. in Computer Science from Stanford University and is completing an M.S. in Computer Science, Human-Computer Interaction (also at Stanford). Originally intending to study Literature, he attended numerous writing camps when studying at Palo Alto High School, such as the prestigious Iowa Young Writers' Studio. His passion and skill in essay composition has led him to help many of his acquaintances with their college applications over the years.",
     zhAdvisorText: <p className='tracking-wider text-lg'>Tristan毕业于Stanford University，获得计算机科学学士学位，并正在斯坦福大学攻读计算机科学与人机交互领域的硕士学位。最初他打算攻读文学，他在Palo Alto高中时参加了许多写作夏令营，比如著名的爱荷华青年作家工作室（Iowa Young Writers' Studio）。他对文章写作的热情和技巧使他多年来帮助了许多熟人处理他们的大学申请和文书。</p>
