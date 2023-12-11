@@ -81,7 +81,8 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '初期评估，深度沟通，以及定制服务。',
-    price: "USD 249.99"
+    price: "USD 249.99",
+    discountPrice: "USD 199.99"
   },
   {
     id: '2',
@@ -93,7 +94,8 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '根据学生个人情况以及美国大学权威数据库规划要申请的学校及专业。',
-    price: "USD 249.99"
+    price: "USD 249.99",
+    discountPrice: "USD 199.99"
   },
   {
     id: '3',
@@ -105,7 +107,8 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '根据不同学校的要求，指导学生撰写升学作文以及修改润色。',
-    price: "USD 249.99"
+    price: "USD 249.99",
+    discountPrice: "USD 199.99"
   },
   {
     id: '4',
@@ -117,7 +120,8 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '以多年面试实习及工作经验，塑造或改进一份优秀的简历。',
-    price: "USD 249.99"
+    price: "USD 249.99",
+    discountPrice: "USD 199.99"
   },
   {
     id: '5',
@@ -129,7 +133,8 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '根据目标学校及专业，规划课外及冬署假期活动，进一步提升竞争力。',
-    price: "USD 249.99"
+    price: "USD 249.99",
+    discountPrice: "USD 199.99"
   },
   {
     id: '6',
@@ -141,7 +146,8 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '规划适合学生的社区服务，使学生在申请材料中更能脱颖而出。',
-    price: "USD 249.99"
+    price: "USD 249.99",
+    discountPrice: "USD 199.99"
   },
   {
     id: '7',
@@ -151,7 +157,8 @@ export const servicesData = [
     zhName: '一年套餐',
     zhCategory: '服务套餐',
     zhDescription: '在一年中包含上至15次线上咨询以及定制专属学生的升学计划，将大多时间花在确定学校和专业，文书的撰写和修改等后期项目。推荐11年级以上学生。',
-    price: "USD 4880.00"
+    price: "USD 4880.00",
+    discountPrice: "USD 3904.00"
   },
   {
     id: '8',
@@ -161,7 +168,8 @@ export const servicesData = [
     zhName: '两年套餐',
     zhCategory: '服务套餐',
     zhDescription: '在两年中包含上至30次线上咨询并和学生专属升学计划，有更充裕的时间去规划以及完善一份更独特的升学资料。',
-    price: "USD 9680.00"
+    price: "USD 9680.00",
+    discountPrice: "USD 7744.00"
   },
   {
     id: '9',
@@ -171,7 +179,8 @@ export const servicesData = [
     zhName: '全套套餐',
     zhCategory: '服务套餐',
     zhDescription: '在四年以内包含上至60次线上咨询，更深入挖掘学生优势以及把控细节，推荐最晚10年级以下学生。',
-    price: "USD 16800.00"
+    price: "USD 16800.00",
+    discountPrice: "USD 13440.00"
   },
 ]
 
