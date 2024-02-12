@@ -81,7 +81,7 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '初期评估，深度沟通，以及定制服务。',
-    price: "USD 249.99",
+    price: "USD 100.00",
     discountPrice: "USD 199.99"
   },
   {
@@ -94,7 +94,7 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '根据学生个人情况以及美国大学权威数据库规划要申请的学校及专业。',
-    price: "USD 249.99",
+    price: "USD 100.00",
     discountPrice: "USD 199.99"
   },
   {
@@ -107,7 +107,7 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '根据不同学校的要求，指导学生撰写升学作文以及修改润色。',
-    price: "USD 249.99",
+    price: "USD 100.00",
     discountPrice: "USD 199.99"
   },
   {
@@ -120,7 +120,7 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '以多年面试实习及工作经验，塑造或改进一份优秀的简历。',
-    price: "USD 249.99",
+    price: "USD 100.00",
     discountPrice: "USD 199.99"
   },
   {
@@ -133,7 +133,7 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '根据目标学校及专业，规划课外及冬署假期活动，进一步提升竞争力。',
-    price: "USD 249.99",
+    price: "USD 100.00",
     discountPrice: "USD 199.99"
   },
   {
@@ -146,7 +146,7 @@ export const servicesData = [
     zhCategory: '精品服务',
     zhDuration: '60分钟',
     zhDescription: '规划适合学生的社区服务，使学生在申请材料中更能脱颖而出。',
-    price: "USD 249.99",
+    price: "USD 100.00",
     discountPrice: "USD 199.99"
   },
   {
@@ -267,8 +267,8 @@ export const advantages = [
     title: 'More Bang For Your Buck',
     titleZh: <p className='tracking-widest'>诚实的价格</p>,
     icon: Coin,
-    content: <p>In the Bay Area, typical comprehensive college application services can easily cost $10000 per year.* Assuming 3 years' worth of consulting and 20 sessions per year, a single session can cost you $500. <strong>Leaps halves this price</strong> at $4880 per year and $249.99 per individual session by not having to rent out a physical office and devote resources on actually helping students.</p>,
-    contentZh: <p className='tracking-wider text-lg'>在美国旧金山湾区，完整的大学咨询至少会在一万美金每年左右。* 假设您在3年中每年咨询20次，那么您单次咨询的费用将为至少五百美金. <strong>在跃升我们提供将近一半的价格</strong>， 完整的套餐每年最高只需美元4880，而单次咨询只需要美元249.99。通过线上咨询的方式，我们将办公室的租金剩下来，将您所有的支付全部用在最大程度地帮助学生完成他们的目标。</p>,
+    content: <p>In the Bay Area, typical comprehensive college application services can easily cost $10000 per year.* Assuming 3 years' worth of consulting and 20 sessions per year, a single session can cost you $500. <strong>Leaps halves this price</strong> at $4880 per year by not having to rent out a physical office and devote resources on actually helping students.</p>,
+    contentZh: <p className='tracking-wider text-lg'>在美国旧金山湾区，完整的大学咨询至少会在一万美金每年左右。* 假设您在3年中每年咨询20次，那么您单次咨询的费用将为至少五百美金. <strong>在跃升我们提供将近一半的价格</strong>， 完整的套餐每年最高只需美元4880。通过线上咨询的方式，我们将办公室的租金剩下来，将您所有的支付全部用在最大程度地帮助学生完成他们的目标。</p>,
     footnote: "*Statistic from Bay Area College Consulting FAQ.",
     footnoteZh: <p className='tracking-wider'>*数据来源于湾区大学咨询官网。</p>
   },

@@ -75,8 +75,7 @@ const ServiceItems = () => {
                       {language === 'en' ? item.description : item.zhDescription}
                     </div>
                   </Collapse>
-                  <div className='tracking-normal text-gray-700 line-through text-sm mt-3'>{item.price}</div>
-                  <div className='tracking-normal font-bold text-accent mt-2'>{item.discountPrice}</div>
+                  <div className='tracking-normal font-bold text-accent mt-3'>{item.price}</div>
                   {open === index ? <IoChevronUpCircleOutline className='w-8 h-8 mt-6 cursor-pointer' /> : <IoChevronDownCircleOutline className='w-8 h-8 mt-6 cursor-pointer' />}
                 </div>
               </div>

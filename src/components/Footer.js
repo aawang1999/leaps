@@ -16,7 +16,7 @@ const Footer = () => {
               )
             })}
           </div>
-          <p className={`${language === 'en' ? 'tracking-normal' : 'tracking-widest'}`}>{language === 'en' ? '2023 © Leaps College Consulting LLC. All rights reserved.' : '2023 © 跃升大学顾问有限责任公司'}</p>
+          <p className={`${language === 'en' ? 'tracking-normal' : 'tracking-widest'}`}>{language === 'en' ? '2024 © Leaps College Consulting LLC. All rights reserved.' : '2024 © 跃升大学顾问有限责任公司'}</p>
         </div>
       </div>
     </footer>
